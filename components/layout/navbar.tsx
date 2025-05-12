@@ -33,7 +33,7 @@ export default function Navbar() {
         }
       )}
     >
-      <div className="container flex items-center justify-between">
+      <div className="w-4/5 mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Sparkles className="h-8 w-8 text-primary" />
           <span className="font-bold text-xl">Aryavarta AI</span>

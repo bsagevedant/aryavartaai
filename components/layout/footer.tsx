@@ -7,7 +7,7 @@ import { Facebook, Github, Instagram, Linkedin, MailIcon, Twitter, Sparkles } fr
 export default function Footer() {
   return (
     <footer className="bg-muted/30 border-t border-border/50 py-12 backdrop-blur-sm">
-      <div className="container">
+      <div className="w-4/5 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
